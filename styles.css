@@ -1093,6 +1093,11 @@ FAQ
 
 */
 
+#faq {
+    margin-top: 36px;
+    margin-bottom: 94px;
+}
+
 .faq__header {
     display: flex;
     flex-direction: column;
@@ -1100,14 +1105,54 @@ FAQ
     align-items: center;
 }
 
-.faq__main {
+.faq__title {
+    font-size: 16px;
+    letter-spacing: 1.4px;
+    margin-bottom: 24px;
+}
+
+.faq__subtitle {
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: 1.1px;
+    margin-bottom: 24px;
+}
+
+.faq__para {
+    font-size: 18px;
+    max-width: 550px;
+    text-align: center;
+    margin-bottom: 40px;
+    line-height: 1.65;
+    letter-spacing: 0px;
+    color: rgb(124, 139, 161);
+    font-weight: 500;
+    margin-bottom: 68px;
+}
+
+.faqs--wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
-.faq__accordion {
+.faqs__accordion {
+    height: 70px;
+    width: 100%;
+    max-width: 895px;
+    background-color: rgb(237, 242, 247);
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding: 24px 36px 24px 32px;
+}
+
+.fa-angle-down {
+    font-size: 18px;
+}
+
+.faqs__accordion {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -1502,6 +1547,14 @@ SMALL DESKTOP, LAPTOPS, TABLETS & LARGE SMARTPHONES
         min-height: 500px;
     }
 
+    .faq__para {
+        font-size: 16px;
+    }
+
+    .faqs__accordion {
+        font-size: 18px;
+    }
+
     .prefooter {
         width: 93%;
         padding-top: 167px;
@@ -1720,6 +1773,10 @@ SMALL DESKTOP, LAPTOPS, TABLETS & LARGE SMARTPHONES
         text-align: center;
     }
 
+    .faq__para {
+        font-size: 14px;
+    }
+
     .footer__links {
         width: calc(100% / 3);
         display: flex;
@@ -1853,6 +1910,14 @@ SMALL DESKTOP, LAPTOPS, TABLETS & LARGE SMARTPHONES
 
     .testimonial__author--nav-arrow-wrapper-right {
         margin-left: 24px;
+    }
+
+    .faq__subtitle {
+        font-size: 36px;
+    }
+
+    .faq__para {
+        max-width: 500px;
     }
 
     .prefooter__blurb {
