@@ -1094,8 +1094,8 @@ FAQ
 */
 
 #faq {
-    margin-top: 36px;
-    margin-bottom: 94px;
+    margin: 36px 0 94px 0;
+    padding: 0 32px;
 }
 
 .faq__header {
