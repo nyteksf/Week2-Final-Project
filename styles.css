@@ -11,7 +11,6 @@
 nav {
     height: 105px;
     display: flex;
-    padding: 0 32px;
 }
 
 .container {
@@ -20,9 +19,9 @@ nav {
 }
 
 .row {
-    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    width: calc(100% - 64px);
 }
 
 .flex-row {
@@ -1095,7 +1094,6 @@ FAQ
 
 #faq {
     margin: 36px 0 94px 0;
-    padding: 0 32px;
 }
 
 .faq__header {
@@ -1439,7 +1437,6 @@ SMALL DESKTOP, LAPTOPS, TABLETS & LARGE SMARTPHONES
 
     .responsive-col-rev {
         flex-direction: row;
-        padding: 0px 32px;
     }
 
     .root__right,
@@ -1458,10 +1455,6 @@ SMALL DESKTOP, LAPTOPS, TABLETS & LARGE SMARTPHONES
     .root__para {
         font-size: 16px;
         font-weight: 500;
-    }
-
-    .get-started__left {
-        margin-left: 32px;
     }
 
     .get-started__img {
@@ -1503,6 +1496,10 @@ SMALL DESKTOP, LAPTOPS, TABLETS & LARGE SMARTPHONES
         margin-bottom: 40px;
     }
 
+    .pricing__para {
+        font-size: 15px;
+    }
+
     .plans {
         display: flex;
         flex-wrap: wrap;
@@ -1523,12 +1520,10 @@ SMALL DESKTOP, LAPTOPS, TABLETS & LARGE SMARTPHONES
 
     .testimonials__left {
         width: 40%;
-        margin-left: 32px;
     }
 
     .testimonials__right {
         width: 60%;
-        margin-right: 32px;
     }
 
     .testimonials__subtitle {
@@ -1556,7 +1551,6 @@ SMALL DESKTOP, LAPTOPS, TABLETS & LARGE SMARTPHONES
     }
 
     .prefooter {
-        width: 93%;
         padding-top: 167px;
         padding-bottom: 167px;
     }
@@ -1624,10 +1618,15 @@ SMALL DESKTOP, LAPTOPS, TABLETS & LARGE SMARTPHONES
         margin-left:  auto;
         margin-right: auto;
         max-width: 500px;
+        font-size: 34px;
     }   
 
     .get-started__left {
         width: 100%;
+    }
+
+    .get-started__subtitle {
+        font-size: 32px;
     }
 
     .get-started__img-wrapper {
@@ -1638,7 +1637,7 @@ SMALL DESKTOP, LAPTOPS, TABLETS & LARGE SMARTPHONES
     }
 
     .get-started__img {
-        width: 60%;
+        width: 75%;
         margin-top: -30px;
     }
 
@@ -1734,10 +1733,6 @@ SMALL DESKTOP, LAPTOPS, TABLETS & LARGE SMARTPHONES
         margin-bottom: 64px;
     }
 
-    .testimonials__img {
-        width: 90%;
-    }
-
     .testimonials__right {
         padding-left: 0;
     }
@@ -1811,7 +1806,7 @@ SMALL DESKTOP, LAPTOPS, TABLETS & LARGE SMARTPHONES
     }
 
     .services__subheader {
-        font-size:  36px;
+        font-size:  38px;
         text-align: center;
         max-width:  400px;
     }
@@ -1834,7 +1829,7 @@ SMALL DESKTOP, LAPTOPS, TABLETS & LARGE SMARTPHONES
     }
 
     .get-started__subtitle {
-        font-size: 30px;
+        font-size: 29px;
     }
 
     .get-started__img {
