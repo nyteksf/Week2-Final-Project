@@ -1794,6 +1794,7 @@ SMALL DESKTOP, LAPTOPS, TABLETS & LARGE SMARTPHONES
 @media (max-width: 576px) {
     .header__title {
         text-align: center;
+        max-width: 415px;
     }
     
     .header__btn {
