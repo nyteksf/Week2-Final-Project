@@ -1600,6 +1600,10 @@ SMALL DESKTOP, LAPTOPS, TABLETS & LARGE SMARTPHONES
     .root__right {
         width: 70%;
     }
+    
+    .root__left {
+        width: 100%;
+    }
 
     .root__hero-img--wrapper {
         margin-bottom: 56px;
@@ -1607,6 +1611,9 @@ SMALL DESKTOP, LAPTOPS, TABLETS & LARGE SMARTPHONES
 
     .root__para {
         font-size: 14px;
+        width: 80%;
+        margin-left:  auto;
+        margin-right: auto;
     }
 
     .root__left {
@@ -1617,7 +1624,7 @@ SMALL DESKTOP, LAPTOPS, TABLETS & LARGE SMARTPHONES
     .root__subtitle {
         margin-left:  auto;
         margin-right: auto;
-        max-width: 500px;
+        max-width: 450px;
         font-size: 34px;
     }   
 
@@ -1645,6 +1652,7 @@ SMALL DESKTOP, LAPTOPS, TABLETS & LARGE SMARTPHONES
         padding-left: 0;
         text-align: center;
         margin-top: 64px;
+        width: 100%;
     }
 
     .get-started__item {
@@ -1676,10 +1684,6 @@ SMALL DESKTOP, LAPTOPS, TABLETS & LARGE SMARTPHONES
         width: 70%;
     }
 
-    .value__left {
-        text-align: center;
-    }
-
     .value__left--para {
         font-size: 14px;
     }
@@ -1693,10 +1697,6 @@ SMALL DESKTOP, LAPTOPS, TABLETS & LARGE SMARTPHONES
         justify-content: center;
     }
 
-    .value__left {
-        width: 65%;
-    }
-
     .value__left--para {
         font-size: 14px;
         max-width: 430px;
@@ -1707,7 +1707,8 @@ SMALL DESKTOP, LAPTOPS, TABLETS & LARGE SMARTPHONES
     }
 
     .value__left {
-        width: 65%;
+        text-align: center;
+        width: 75%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1735,6 +1736,7 @@ SMALL DESKTOP, LAPTOPS, TABLETS & LARGE SMARTPHONES
 
     .testimonials__right {
         padding-left: 0;
+        width: 80%;
     }
 
     .testimonial__slide {
@@ -1871,7 +1873,7 @@ SMALL DESKTOP, LAPTOPS, TABLETS & LARGE SMARTPHONES
     }
 
     .testimonials__right {
-        width: 80%;
+        width: 100%;
         margin-right: 0;
     }
 
